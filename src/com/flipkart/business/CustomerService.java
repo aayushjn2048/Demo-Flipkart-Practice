@@ -11,7 +11,7 @@ import com.flipkart.bean.Customer;
  * @author HP
  *
  */
-public class CustomerService {
+public class CustomerService implements CustomerInterface{
 	//The service class implementing all the operations for creating, updating and deleting the customers
 	
 	//Customer customer = new Customer();

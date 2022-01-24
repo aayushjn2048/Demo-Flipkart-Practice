@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.flipkart.bean.Customer;
+import com.flipkart.business.CustomerInterface;
 import com.flipkart.business.CustomerService;
 
 /**
@@ -21,7 +22,8 @@ public class CustomerApplication {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//create the instance of customer service
-		CustomerService service = new CustomerService();
+		//CustomerService service = new CustomerService();
+		CustomerInterface service = new CustomerService();
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Choose the following options to avail the customer services:-");
